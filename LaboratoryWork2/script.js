@@ -1,4 +1,4 @@
-// function GetDataType(value, number_task){
+// function GetDataType(value, number_task){ dont work =(
 //     var res=`${value}) Variable: ${value}, DataType: ${GetDataType()}`;
 //     alert(res);
 // }
@@ -15,6 +15,7 @@
 // GetDataType(null=='', 11);
 // GetDataType(!!"false"==!!"true", 12);
 // GetDataType([`x`]==`x`, 13);
+
 alert(`1) Variable: 1/2, DataType: ${typeof (1/2)}`);
 alert(`2) Variable: 12/0, DataType: ${typeof (12/0)}`);
 alert(`3) Variable: true+false, DataType: ${typeof(true+false)}`);
